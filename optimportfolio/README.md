@@ -78,4 +78,5 @@ The following optimizations were done to main.js for renderng pizza.html at 60 f
 	b. Used requestAnimationFrame to call updatePositions 	function. 
 2.	Reduced the number of sliding pizzas in the background.
 3.	Moved the sliding pizzas to separate layer to reduce 	paint.
+The pizza resize function was also optimized to take less than 5 ms.
 
