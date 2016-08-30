@@ -63,3 +63,19 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+
+
+
+The following optmizations were done to index.html to attain a pagespeed score > 90.
+1. Eliminated render-blocking JavaScript and CSS.
+2. Used web font loader for google font families.
+3. Optimized the pizzeria and profile pic images.
+
+The following optimizations were done to main.js for renderng pizza.html at 60 fps.
+1. Optimized updatePositions functions by
+	a. Moved calculations that remain constant outside the for 	loop.
+	b. Fetching the array of sliding pizzas outside the for 	loop.
+	b. Used requestAnimationFrame to call updatePositions 	function. 
+2.	Reduced the number of sliding pizzas in the background.
+3.	Moved the sliding pizzas to separate layer to reduce 	paint.
+
